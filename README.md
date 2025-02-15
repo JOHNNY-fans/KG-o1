@@ -11,7 +11,7 @@ Welcome to KG-o1, a two-stage approach that integrates KGs to elevate an LLM to 
 
 ## Example of KG-MHQA.
 <div align="center">
-  <img src="./figure/example_kg_mhqa.png" width="1080px">
+  <img src="./figure/example_kg_mhqa.png" width="480px">
 </div>
 
 To be continued.
