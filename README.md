@@ -1,4 +1,4 @@
-# KG-o1:
+# KG-o1: Integrating Knowledge Graphs to Enhance Multi-Hop Reasoning for Large Language Models
 
 ## Introduction
 
