@@ -1,0 +1,13 @@
+dataset/train/3rel_sft_combine_new.jsonl filter=lfs diff=lfs merge=lfs -text
+./dataset/train/3rel_sft_combine_new.jsonl
+dataset/train/2rel_sft_combine.jsonl filter=lfs diff=lfs merge=lfs -text
+./dataset/train/2rel_sft_combine.jsonl
+dataset/train/o1_4o_dpo_train.jsonl filter=lfs diff=lfs merge=lfs -text
+./dataset/train/o1_4o_dpo_train.jsonl
+./dataset/train/3rel_sft_combine_new.jsonl
+dataset/train/2rel_sft_combine_dev.jsonl filter=lfs diff=lfs merge=lfs -text
+./dataset/train/2rel_sft_combine_dev.jsonl
+dataset/train/o1_4o_dpo_dev.jsonl filter=lfs diff=lfs merge=lfs -text
+./dataset/train/o1_4o_dpo_dev.jsonl
+./dataset/train/2rel_sft_combine.jsonl
+./dataset/train/o1_4o_dpo_train.jsonl
