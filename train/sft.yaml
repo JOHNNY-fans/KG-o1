@@ -1,0 +1,39 @@
+### model
+model_name_or_path: ./Qwen2.5/Qwen2.5-14B-Instruct
+
+### method
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_target: all
+deepspeed: ./examples/deepspeed/ds_z3_config.json
+
+### dataset
+dataset: 3rel_sft_train,2rel_sft_train
+template: qwen
+cutoff_len: 8192
+max_samples: 1000000
+overwrite_cache: true
+preprocessing_num_workers: 16
+
+### output
+output_dir: ./qwen_14b_sft
+logging_steps: 1
+save_strategy: epoch
+plot_loss: true
+overwrite_output_dir: true
+
+### train
+per_device_train_batch_size: 2
+gradient_accumulation_steps: 4
+learning_rate: 1.0e-4
+num_train_epochs: 5
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+
+### eval
+eval_dataset: 3rel_sft_dev,2rel_sft_dev
+per_device_eval_batch_size: 1
+eval_strategy: epoch

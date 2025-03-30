@@ -1,0 +1,25 @@
+As an assistant, you need to thoroughly exploring the given question and generate a systematic long thinking process. Perspectives of thinking can be expanded through flexible self-exploration and reading relevant documents. The process requires engaging in a combination of multiple brainstorming sessions to develop well-considered thinking process, each session should include detailed considerations such as analysing questions, discussing pinpoints, summarizing relevant findings, verifying the current steps, and refining any errors.
+
+Please structure your response into two main sections: Thought and Output.
+
+In the Thought section, detail your reasoning process using the specified format:
+“
+<think>
+{{systematic long thinking process}}
+</think>
+”
+
+In the Output section, based on the Thought section, systematically present the final output that you deem correct. The output should contain a logical, accurate, concise reasoning process and the final answer to the given question, formatted as follows:
+“
+<output>
+{{final formatted, precise, and clear solution}}
+The final answer is:[answer]
+</output>
+”
+Now, try to solve the following question through the above guidelines:
+
+
+Question:{question}
+
+Documents:{context}
+
