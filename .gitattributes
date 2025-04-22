@@ -28,3 +28,18 @@ evaluation/data/kg_mhqa/raw/test_subsampled_more.jsonl filter=lfs diff=lfs merge
 ./.git/lfs/objects/13/07/1307031127cc92fd2abc2f5e27b369ec6c5ed28ba092a66a8578672261558334
 .git/lfs/objects/7f/19/7f19f640162f6b3e29b4ffbe1fb4b56d92b099ef7846a1fe536752393cb1e270 filter=lfs diff=lfs merge=lfs -text
 ./.git/lfs/objects/7f/19/7f19f640162f6b3e29b4ffbe1fb4b56d92b099ef7846a1fe536752393cb1e270
+./dataset/train/3rel_sft_combine_new.jsonl
+./dataset/train/2rel_sft_combine_dev.jsonl
+./dataset/train/o1_4o_dpo_dev.jsonl
+./dataset/train/2rel_sft_combine.jsonl
+./dataset/train/o1_4o_dpo_train.jsonl
+./evaluation/data/kg_mhqa/raw/test_subsampled_more.jsonl
+./.git/lfs/objects/da/b4/dab4d3b8d0552ff7b72da9dcaca8db1cd566f1e36e8b83d481e087e89fc379ab
+./.git/lfs/objects/90/35/9035d900c2ccc1b61a00fd79ccbad54b4e7dcc8b77c33bd903dc70902463fdb9
+.git/lfs/objects/e0/76/e076a96ffe5741a6c75543dd8aebbdcfe0a1bc06a61983dcbf97cb32850c326e filter=lfs diff=lfs merge=lfs -text
+./.git/lfs/objects/e0/76/e076a96ffe5741a6c75543dd8aebbdcfe0a1bc06a61983dcbf97cb32850c326e
+./.git/lfs/objects/24/50/2450dc98b7af9e1df46a1818ad47aad42c8e439616eafdb237568ae2df13d7b0
+./.git/lfs/objects/13/07/1307031127cc92fd2abc2f5e27b369ec6c5ed28ba092a66a8578672261558334
+./.git/lfs/objects/7f/19/7f19f640162f6b3e29b4ffbe1fb4b56d92b099ef7846a1fe536752393cb1e270
+src/Subgraph_Selection/initial_source/FB15K.txt filter=lfs diff=lfs merge=lfs -text
+./src/Subgraph_Selection/initial_source/FB15K.txt
